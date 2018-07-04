@@ -1,0 +1,48 @@
+div.page-header{
+	margin-left: 535px;
+	border-bottom: none;
+}
+#container{
+	margin-left: 300px;
+	width: 800px;
+}
+#container p.info{
+	background-color: #FFB6C1;
+	height: 40px;
+}
+#container p.info span{
+	display: inline-block;
+    font-size: large;
+    font-weight: 550;
+    padding: 10px 0 0 10px;
+}
+#personInfo{
+	width: 800px;
+}
+
+label{
+	font-size: medium;
+	margin: 10px 0 10px ;
+}
+#personInfo .title{
+	padding:0 10px 0 130px ;
+	font-size: medium;
+	display: inline-block;
+}
+#personInfo .face{
+	padding:0 10px 0 41px ;
+}
+#personInfo .intension{
+	padding:0 10px 0 83px ;
+}
+#personInfo p,#schoolInfo p{
+	display: inline-block;
+	word-break: break-all;
+	word-wrap: break-word;
+	width: 700px;
+}
+#image{
+	position: relative;
+	top: -1010px;
+	left: 500px;
+}

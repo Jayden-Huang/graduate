@@ -1,0 +1,66 @@
+#container{
+	margin:0px 0px 20px 50px;
+	float: left;
+}
+#container div.list-group{
+	float:  left;
+	width: 200px;
+	display: block;
+}
+#resumeBody{
+  width: 800px;
+  margin-left: 20px;
+  float: left;
+  /*border: 1px solid #C48402;*/	
+}
+#resumeBody span.glyphicon-edit{
+	display: inline-block;
+	float: right;
+}
+.bianqian{
+	color: red;
+	padding-right:5px;
+}
+.form-group{
+	margin-top: 10px;
+	margin-bottom:5px;
+}
+#information .touxiang{
+	float: right;
+	margin: 30px 0px 0 20px;
+	width: 273px;
+	height: 140px;
+	z-index: 100;
+	position: relative;
+	top: -400px;
+	left: 50px;
+}
+#fileUpload{
+	background-color: white;
+	float: right;
+	width: 450px;
+}
+#fileUpload label{
+	display: block;
+	margin: 10px 0 10px ;
+}
+
+#informationshow img{
+	display: block;
+	float: right;
+	margin-right: 100px;   
+}
+#person{
+	width: 300px;
+	float: left;
+}
+#eduShow{
+	clear: both;
+}
+
+#showDescribes,#workShowResponsiblity,#projectShowDescribes
+,#schoolShowAward,schoolShowDuty{
+	width: 700px;
+	word-wrap:break-word;
+	word-break:break-all;
+}

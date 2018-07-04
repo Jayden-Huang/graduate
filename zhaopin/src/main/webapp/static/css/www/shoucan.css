@@ -1,0 +1,73 @@
+h4{
+	margin-left: 80px;
+	color:#FF0000;
+	display: block;
+}
+h4 span{
+	color:#FF0000;
+}
+#count{
+	font-family: "微软雅黑";
+	font-size: medium;
+	color: 	#B0C4DE;
+	margin-left: 80px;
+}
+#table{
+	margin-left: 80px;
+    margin-top: 2px;
+    width: 1200px;
+}
+
+#table ul{
+	width: 1200px;
+	display: block;
+	padding: 0;
+	border-bottom:  1px solid #f4f4f4;
+}
+
+#table ul li{
+ list-style: none;
+ border-bottom: 1px solid  #f4f4f4;
+ display: block;
+}
+#table ul li span.PName{
+	width: 240px;
+}
+#table ul li span.PName:hover{
+	background-color: #f4f4f4;
+}
+#table ul li span{
+	float: left;
+	display: inline-block;
+    font-family: "微软雅黑";
+    font-size: medium;
+    padding: 15px 125px 15px 30px ;
+}
+#table ul li p{
+	clear: both;
+	padding: 10px 0 10px 30px;
+	font-family: "微软雅黑";
+	font-size: small;
+	color:#C0C0C0;
+	display:block;
+}
+
+#table ul:first-child{
+	float: left;
+	width: 1200px;
+	display: block;
+	padding: 0;
+	border-bottom:1px solid #f4f4f4;
+	background-color: #F4F4F4;
+}
+
+#table ul:first-child li{
+	float: left;
+	display: inline-block;
+    list-style: none;
+    font-family: "微软雅黑";
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px 125px 15px 30px;
+}
+

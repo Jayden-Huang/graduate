@@ -1,0 +1,45 @@
+.table{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.table ul{
+    padding: 0;
+}
+.table ul:first-child li{
+    list-style: none;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: medium;
+    font-weight: bolder;
+    padding-right: 150px;
+}
+
+#ulContainer{
+    margin-top: 10px;
+}
+
+#ulContainer li{
+    clear: both;
+    list-style: none;
+    float: left;
+    border-top: 1px solid #5ACDE2;
+    padding-top: 5px;
+}
+ul#ulContainer>li>span{
+    width:190px;
+    padding-right: 140px;
+    display: inline-block;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+ul#ulContainer>li>span:nth-child(3){
+    padding-right: 115px;
+}
+ul#ulContainer>li>span:nth-child(4){
+    padding-right: 75px;
+}
+.pagination>li>a{
+    border: 1px solid #ddd !important;
+    margin: 0px !important;
+}
