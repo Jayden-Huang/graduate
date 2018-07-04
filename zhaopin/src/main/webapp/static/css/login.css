@@ -1,0 +1,58 @@
+#login,#container{
+	margin: 20px 0px 20px 150px;
+	
+}
+#login p{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: bold;
+}
+#container{
+	float: left;
+	width: 500px;
+	height: 400px;
+	border: 1px solid #F4F4F4;
+}
+#home,#profile,#messages{
+	margin: 30px 104px;
+	width: 300px;
+}
+#register{
+	float: left;
+	border: 1px solid #F4F4F4;
+	width: 300px;
+	margin-top: 20px;
+	height: 400px;
+}
+#register label{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin: 40px 70px;
+}
+#register a{
+	margin: 115px 40px;
+	width: 200px;
+}
+
+footer{
+	clear: both;
+	position: relative;
+	top: 18px;
+}
+footer #desc{
+	clear: both;
+ 	font-family: "微软雅黑";
+ 	color:#A9A9A9;
+ 	position: relative;
+ 	top: 30px;
+ 	padding-top: 20px;
+ 	height: 50px;
+ 	background-color:#101010;
+}
+form#messages1>#error{
+	color: red;
+	display: none;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin: 40px 70px;
+}

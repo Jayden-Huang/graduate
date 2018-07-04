@@ -1,0 +1,89 @@
+#container{
+	margin-top: 50px;
+	margin-left: 150px;
+	width: 1052px;
+}
+#container .text1 h2{
+   width: 300px;
+   margin-right: 0;
+   float: left;
+}
+#container .text1 h5{
+   width: 20px;
+   margin-top: 32px;
+   float: left;
+}
+#container .text1 large{
+	clear: both;
+	display: block;
+}
+#container .text2{
+	margin-top: 40px;
+}
+#container .btn-group{
+	margin-top: 20px;
+}
+#container .btn-group button{
+	margin-right: 20px;
+}
+#container .tuijian{
+	margin-top: 30px;
+	border-top:1px solid #f4f4f4;
+}
+#table{
+    width: 1052px;
+    margin-top: 40px;
+}
+
+#table ul{
+	width: 1052px;
+	display: block;
+	padding: 0;
+	border-bottom:  1px solid #f4f4f4;
+}
+#table ul :hover{
+	background-color: #f4f4f4;
+}
+#table ul li{
+ list-style: none;
+ border-bottom: 1px solid  #f4f4f4;
+ display: block;
+}
+#table ul li span{
+	float: left;
+	display: inline-block;
+    font-family: "微软雅黑";
+    font-size: medium;
+    padding: 15px 160px 15px 0px ;
+}
+#table ul li p{
+	clear: both;
+	padding: 10px 0 10px 0px ;
+	font-family: "微软雅黑";
+	font-size: small;
+	color:#C0C0C0;
+	display:block;
+}
+
+#table ul:first-child{
+	float: left;
+	width: 1052px;
+	display: block;
+	padding: 0;
+	border-bottom:1px solid #f4f4f4;
+	background-color: #F4F4F4;
+}
+
+#table ul:first-child li{
+	float: left;
+	display: inline-block;
+    list-style: none;
+    font-family: "微软雅黑";
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px 160px 15px 0px  ;
+}
+
+#table ul li span.pName{
+	width: 270px;
+}

@@ -1,0 +1,73 @@
+#table{
+	clear: both;
+}
+#table ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#table ul:first-child li{
+	list-style: none;
+	font-family: "微软雅黑","microsoft yahei","宋体";
+	font-size: medium;
+	font-weight: bold;
+	padding-right: 80px;
+	float:left;
+	margin-top: 5px;
+	width: 140px;
+}
+#table ul:first-child li:nth-child(4){
+	padding-left: 55px;
+	padding-right: 40px;
+}
+#table ul:first-child li:nth-child(5){
+	padding-left: 100px;
+}
+
+#table ul:first-child li:nth-child(6){
+	padding-left: 80px;
+}
+
+#ulContainer{
+	clear: both;
+	position: relative;
+	top: 10px;
+}
+
+#ulContainer li{
+	display: block;
+	clear: both;
+}
+
+#ulContainer li span{
+	border-top:1px solid #5ACDE2;
+	font-family: "微软雅黑","microsoft yahei","宋体";
+	padding:10px 80px 0 0;
+	float: left;
+	width: 140px;
+}
+
+#ulContainer>li>span:nth-child(4){
+	padding-right: 50px;
+	width: 220px;
+	display: block;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+#ulContainer>li>span:nth-child(5){
+	width: 150px;
+}
+#ulContainer>li>span:nth-child(7){
+	width: 170px;
+	display: block;
+	word-break: break-all;
+	word-wrap: break-word;
+	height: 80px;
+	padding-right: 20px;
+}
+
+.pagination>li>a{
+	border: 1px solid #ddd !important;
+	margin: 0px !important;
+}

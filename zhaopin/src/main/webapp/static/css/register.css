@@ -1,0 +1,42 @@
+
+/*注册页面*/
+#title{
+	width: 500px;
+	margin: 20px 0px 40px 150px;
+}
+#login{
+	float: left;
+	width: 120px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: bold;
+}
+#right{
+	float: right;
+	margin: 10px;
+}
+#container{
+	clear: both;
+	margin: 20px 0px 20px 150px;
+	border: 1px solid #F4F4F4;
+	width: 500px;
+}
+#container form{
+	margin: 20px;
+	width: 320px;
+}
+footer{
+	clear: both;
+	position: relative;
+	top: 50px;
+}
+footer #desc{
+	clear: both;
+ 	font-family: "微软雅黑";
+ 	color:#A9A9A9;
+ 	position: relative;
+ 	top: 30px;
+ 	padding-top: 20px;
+ 	height: 50px;
+ 	background-color:#101010;
+}
